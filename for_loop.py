@@ -38,4 +38,16 @@ for i in range(int(input("How many first square number you would like to print :
 
 # 5. Write a program to print first n even natural number in reverse order 
 
-for i in range(int(input("Enter a number : ")))
+print()
+even_input = int(input("Enter a number : "));
+for i in range(even_input):
+    print((even_input-i)*2, end=" ")
+
+# 6 Write a program to calculate sum of first n multiples of x
+
+user_table_no = int(input("Enter a number : "))
+user_multiple = int(input("Enter multiple one : "))
+sum = 0;
+for i in range(1,user_multiple+1):
+    sum = sum + user_table_no*i;
+print(sum)

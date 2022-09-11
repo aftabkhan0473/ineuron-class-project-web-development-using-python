@@ -1,8 +1,7 @@
-# Write a program to print if you got more than 50 marks then hero else gadha !
-print("hero" if int(input("Enter a number : "))>=50 else "gadha")
+x = [1,2,3,4]
+# print(len(x))
 
-# Write a program to print
-print("osm" if int(input("Math marks : "))>90 else "good")
-x = "True";
-print(eval(x))
-print(type(eval(x)))
+i = 0;
+while i<len(x):
+    print(x[i], end=" ");
+    i+= 1;
