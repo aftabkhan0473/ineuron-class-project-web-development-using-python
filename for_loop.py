@@ -15,9 +15,27 @@ for i in [1,2,3,4]:
 
 # 2. Print all the character of a string, but stop printing if 'r' appeared in the sequence, if all the character successfully printed the print message "All the characters aer processed."
 
+print()
 str2 = input("Enter the string : ");
 for i in str2:
     if i=='r':
         break
     else:
-        print(i, end=" ")
+        print(i)
+else:
+    print("All numbers are processed!")
+
+#3. Write a program to print first n natural number
+
+for i in range(int(input("How many natural number you would like to print ? "))):
+    print(i+1, end=" ");
+
+# 4. Write a program to print square of first n natural number 
+
+print()
+for i in range(int(input("How many first square number you would like to print : "))):
+    print((i+1)**2, end=" ")
+
+# 5. Write a program to print first n even natural number in reverse order 
+
+for i in range(int(input("Enter a number : ")))
