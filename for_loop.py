@@ -51,3 +51,11 @@ sum = 0;
 for i in range(1,user_multiple+1):
     sum = sum + user_table_no*i;
 print(sum)
+
+# comparison operator on list
+l1 = list([10,20]);
+l2 = list([5,50]);
+l3=[1,4,9,23]
+print(l1>l2)
+print(l1==l2)
+print(l1>l3)
