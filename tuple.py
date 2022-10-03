@@ -5,3 +5,4 @@ print(type(t2))
 t3 = 1,2,3,4,5,6 #tuple hai bro!
 print(type(t3))
 print(t3)
+print(type("Aftab", 1, 5.5, True, False))
